@@ -32,7 +32,7 @@ None.
   vars_files:
     - vars/main.yml
   roles:
-    - { role: ansible.ansible.role.clone-git-repo }
+    - { role: ansible.role.clone-git-repo }
 ```
 Inside `vars/main.yml`:
 ```yaml
